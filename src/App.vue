@@ -3,19 +3,22 @@
     <img alt="Vue logo" src="./assets/logo.png">
      <!-- <Diskusi4 /> -->
      <tugas2_nomor1 :Alas="20" :Tinggi="10" :Setengah="2"/>
+     <tugas2_nomor2/>
   </div>
 </template>
 
 <script>
 // import Diskusi4 from './components/Diskusi4.vue'
-import tugas2_nomor1 from './components/tugas2_nomor1.vue'
+// import tugas2_nomor1 from './components/tugas2_nomor1.vue'
+import tugas2_nomor2 from './components/tugas2_nomor2.vue'
 
 export default {
   name: 'App',
   components: {
     // HelloWorld
     // Diskusi4,
-    tugas2_nomor1
+    // tugas2_nomor1,
+    tugas2_nomor2
   }
 }
 </script>
